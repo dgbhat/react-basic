@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+.item {
+    border: 1px solid lightblue;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+.item.active{
+    background: #0a85af;
+}
+
+/*.item:hover {*/
+/*    background: #d3d3d33b;*/
+/*}*/
+
+.item:hover {
+    cursor: pointer;
+}
